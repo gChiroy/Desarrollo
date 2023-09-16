@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo del MRU y MRUV</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="/JS/calculos.js"></script>
+</head>
+<body>
+    <header>
+        <h1 >Calculo de MRU Y MRUV</h1>
+        <h2>Desarrollo web</h2>
+    </header>
+    <title>CALCULO DE MRU Y MRUV</title>
+    <h1 id="titulo1">MOVIMIENTO RECTILINIO UNIFORME</h1>
+        <p id="pprincipal">
+            El MRU se define el movimiento en el cual un objeto se desplaza en línea recta, 
+            en una sola dirección, recorriendo distancias iguales en el mismo intervalo de tiempo, 
+            manteniendo en todo su movimiento una velocidad constante y sin aceleración.Un movimiento es 
+            rectilíneo cuando el cuerpo describe una trayectoria recta, y es uniforme cuando su velocidad es 
+            constante en el tiempo, dado que su aceleración es nula. Nos referimos a él mediante las siglas MRU.</p> 
+            <br>
+            <ul class="lista-carac"></ul>
+                <h2>Caracteristicas del MRU</h2>
+                    <li>Movimiento que se realiza sobre una línea recta.</li>
+                    <li>Velocidad constante; implica magnitud y dirección constantes.</li>
+                    <li>La magnitud de la velocidad recibe el nombre de celeridad o rapidez.</li>
+                    <li>Aceleración nula.</li>
+            </ul>
+            <br>
+            <div class="image-container">
+                <img src="./image/formu_mru.png" class="image">
+                <img src="./image/ejem-mru.png" class="image">
+            </div>
+            <br>
+            <br>
+            <div class="formulario-dis">    
+            <h3>Calcular distancia en MRU</h3>
+            <form id="calculo-dis">
+                <label for="velocidad">Velocidad (v):</label>
+                <input type="number" id="velocidad" name="velocidad" required><br>
+                <label for="tiempo">Tiempo (t):</label>
+                <input type="number" id="tiempo" name="tiempo" required><br>
+                <input type="submit" value="Calcular Distancia">
+                <br>
+                <p>Resultado: <span id="resultado"></span></p>
+            </form>
+        </div>
+        <br>
+        <br>
+        <h1 id="titulo1">MOVIMIENTO RECTILINIO UNIFORMEMENTE VARIADO</h1>
+        <p id="pprincipal">Movimiento rectilíneo uniformemente variado (MRUV), es aquel en el que un móvil 
+            se desplaza sobre una trayectoria recta estando sometido a una aceleración constante.
+            El movimiento rectilíneo uniformemente variado (MRUV) o también llamado movimiento rectilíneo uniforme 
+            acelerado (MRUA), es movimiento que se caracteriza por tener una trayectoria en línea recta y una 
+            aceleración constante y diferente a cero, por lo tanto la velocidad en este movimiento cambia uniformemente 
+            dependiendo de la dirección de su aceleración. Un ejemplo de este tipo de movimiento es el de caída libre vertical, 
+            en el cual la aceleración interviniente, y considerada constante, es la que corresponde 
+            a la gravedad.
+            </p> 
+            <br>
+                <ul class="lista-carac"></ul>
+                <h2>Caracteristicas del MRUV</h2>
+                    <li>La aceleración y la fuerza resultante sobre la partícula son constantes.</li>
+                    <li>La velocidad varía linealmente respecto del tiempo.</li>
+                    <li>La posición varía según una relación cuadrática respecto del tiempo.</li>
+                    <br>
+                    <br>
+            <div class="image-container">
+                <img src="./image/formu_mruv.png" class="image">
+                <img src="./image/ejem-mruv.jpg" class="image">
+            </div>
+            <br>
+            <br>
+            <div class="formulario-ac">
+                <h3>Calcular aceleración MRUV</h3>
+                <form id="calculo-ac">
+                    <label for="velocidadInicial">Velocidad Inicial (vi):</label>
+                    <input type="number" id="velocidadInicial" name="velocidadInicial" required><br>
+                    <label for="velocidadFinal">Velocidad Final (vf):</label>
+                    <input type="number" id="velocidadFinal" name="velocidadFinal" required><br>
+                    <label for="tiempo">Tiempo (t):</label>
+                    <input type="number" id="tiempo" name="tiempo" required><br>
+                    <input type="submit" value="Calcular Aceleración">
+                    <br>
+                    <p>Resultado: <span id="resultado"></span></p>    
+                </form>
+            </div>
+            <br>
+            <br>
+            <br>
+
+    <footer>
+        <address>
+            <p>Nombre: Gilda Marina Inés Chiroy Ramos</p>
+            <p>Carnet: 2290-18-19171</p>
+            <p>Correo Electrónico: gchiroyr@miumg.edu.gt</p>
+        </address>
+    </footer>
+
+</body>
+</html>

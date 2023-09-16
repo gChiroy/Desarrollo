@@ -1,0 +1,166 @@
+header {
+    background-color:  #f0f0f0; /* Color de fondo */
+    color: #092b3d; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 10px; /* Espaciado interno */
+}
+h1 {
+    font-size: 36px; /* Tamaño de fuente para el título principal */
+}
+
+h2 {
+    font-size: 30px; /* Tamaño de fuente para el segundo título */
+}
+
+#titulo1 {
+    text-align: center; /* Alineación al centro */
+    color: #050a0c; /* Color del texto */
+    font-size: 28px; /* Tamaño de fuente */
+}
+
+/* Estilos para el párrafo principal */
+#pprincipal {
+    text-align: justify; /* Justificar el texto */
+    font-size: 19px; /* Tamaño de fuente */
+    width: 100%;
+}
+
+
+
+.lista-carac {
+    list-style: disc; /* Puedes cambiar "disc" a "decimal" para números */
+    padding-left: 50px; /* Espaciado izquierdo para ajustar el contenido */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+
+.image-container {
+    display: flex; /* Utilizar flexbox para alinear las imágenes horizontalmente */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    align-items: center; /* Centrar las imágenes verticalmente */
+    gap: 30px; /* Espaciado entre las imágenes */
+}
+
+.image {
+    height: 250px;
+    max-width: 100%; /* Limitar el ancho de las imágenes al 100% del contenedor */
+    border: 2px solid #c91010; 
+    border-radius: 8px; 
+}
+
+
+
+
+
+/* Estilos para el contenedor del formulario */
+.formulario-dis {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 50px; /* Espaciado interno */
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    border-radius: 8px; /* Radio de borde para esquinas redondeadas */
+}
+
+/* Estilos para el título del formulario */
+.formulario-dis h3 {
+    text-align: center; /* Alineación al centro */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #0077b6; /* Color del texto */
+}
+
+/* Estilos para las etiquetas y campos de entrada */
+.formulario-dis label {
+    font-size: 16px; /* Tamaño de fuente para etiquetas */
+    margin-top: 10px; /* Margen superior para etiquetas */
+}
+
+.formulario-dis input[type="number"] {
+    width: 100%; /* Ancho completo del campo de entrada */
+    padding: 5px; /* Espaciado interno */
+    margin-top: 5px; /* Margen superior */
+    border: 1px solid #1e7f9c; /* Borde del campo de entrada */
+    border-radius: 4px; /* Radio de borde para esquinas redondeadas */
+}
+
+/* Estilos para el botón de envío */
+.formulario-dis input[type="submit"] {
+    background-color: #0077b6; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 30px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Radio de borde para esquinas redondeadas */
+    margin-top: 10px; /* Margen superior para el botón */
+}
+
+/* Estilos para el resultado */
+.formulario-dis p {
+    font-size: 16px; /* Tamaño de fuente para el resultado */
+    margin-top: 15px; /* Margen superior para el resultado */
+}
+
+
+
+
+
+
+/* Estilos para el contenedor del formulario */
+.formulario-ac {
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 50px; /* Espaciado interno */
+    width: 300px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    border-radius: 8px; /* Radio de borde para esquinas redondeadas */
+}
+
+/* Estilos para el título del formulario */
+.formulario-ac h3 {
+    text-align: center; /* Alineación al centro */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #0077b6; /* Color del texto */
+}
+
+/* Estilos para las etiquetas y campos de entrada */
+.formulario-ac label {
+    font-size: 16px; /* Tamaño de fuente para etiquetas */
+    margin-top: 10px; /* Margen superior para etiquetas */
+}
+
+.formulario-ac input[type="number"] {
+    width: 100%; /* Ancho completo del campo de entrada */
+    padding: 5px; /* Espaciado interno */
+    margin-top: 5px; /* Margen superior */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 4px; /* Radio de borde para esquinas redondeadas */
+}
+
+/* Estilos para el botón de envío */
+.formulario-ac input[type="submit"] {
+
+    background-color: #0077b6; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 30px; /* Espaciado interno del botón */
+    border-radius: 4px; /* Radio de borde para esquinas redondeadas */
+    margin-top: 10px; /* Margen superior para el botón */
+}
+
+/* Estilos para el resultado */
+.formulario-ac p {
+    font-size: 16px; /* Tamaño de fuente para el resultado */
+    margin-top: 10px; /* Margen superior para el resultado */
+}
+
+
+
+
+footer {
+    background-color: #1f1d1d; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el elemento 'address' dentro del footer */
+footer address {
+    font-style: italic; /* Texto en cursiva */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 10px 0; /* Margen superior e inferior */
+}
